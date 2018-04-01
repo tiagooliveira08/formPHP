@@ -1,0 +1,179 @@
+*{margin:0; padding: 0;  color: #696D8C; font-family: Soleil;
+}
+/* classes */
+.text-center{
+	text-align: center;
+}
+.isRed{
+	color: red;
+}
+.isGreen{
+	color: #34A853;
+}
+.customSetRed{
+	background-color: #F79682 !important;
+}
+.customSetGreen{
+	background-color: #1FE6A8 !important;
+}
+.customSetOrange{
+	background-color: #F7BC1C !important;
+}
+.customSetGray{
+	background-color: #EAEAF4 !important;
+}
+.customSetBorderColorRed{
+	border: 1px solid #F79682 !important;
+}
+.customSetBorderColorGreen{
+	border: 1px solid #1FE6A8 !important;
+}
+.container{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+/* Fim classes */
+body,html{
+	height: 100%;
+	
+}
+
+.background{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: auto;
+	min-height: 100%;
+	width: 100%;
+	background-color:#F5F5FB;
+}
+
+.my-form{
+	width: 40%;
+	height: auto;
+	background-color: white;
+	border: 3px solid #F2F2F2;
+}
+
+.form-header{
+	margin: auto;
+	width: 80%;
+	padding: 20px 0 20px 0;
+}
+
+.form-body{
+	margin: auto;
+	width: 80%;
+}
+
+.form-group{
+	padding-bottom: 24px;
+}
+
+.labels-form{
+	display: block;
+	margin-bottom: 2px;
+}
+
+.text-form{
+	width: 100%;
+	padding: 10px 0 10px 0;
+	overflow-x: hidden;
+	font-size: 18px;
+	border: 1px solid #B6B9D0;	
+}
+
+.logotype{
+	
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.verificator-box{
+	padding-top :8px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+/* Displays */
+.verificator-1{
+	width: 32%;
+	height: 8px;
+	background-color: #EAEAF4;
+	border-radius: 3px;
+}
+
+.verificator-2{
+	width: 32%;
+	height: 8px;
+	background-color: #EAEAF4;
+	border-radius: 3px;
+}
+
+.verificator-3{
+	width: 32%;
+	height: 8px;
+	background-color: #EAEAF4;
+	border-radius: 3px;
+}
+
+.ballOne{
+	width: 12px;
+	height: 12px;
+	border-radius: 10px;
+	background-color:#EAEAF4;
+	display: inline-block;
+	margin-right: 10px; 
+}
+
+.ballTwo{
+	width: 12px;
+	height: 12px;
+	border-radius: 10px;
+	background-color:#EAEAF4;
+	display: inline-block;
+	margin-right: 10px; 
+}
+
+.ballThree{
+	width: 12px;
+	height: 12px;
+	border-radius: 10px;
+	background-color:#EAEAF4;
+	display: inline-block;
+	margin-right: 10px; 
+}
+/* Fim Displays */
+.indicator-box{
+ width: 100%;
+}
+
+.btn-send{
+	width: 101%;
+	background-color: #17D499;
+	height: 52px;
+	border: none;
+	color:white;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+@media (max-width: 1200px){
+	.my-form{
+		width: 60%;
+	}
+}
+@media (max-width: 768px){
+	.my-form{
+		width: 80%;
+	}
+}
+@media (max-width: 576px) {
+	.my-form{
+		width: 90%;
+		height: auto;
+	}
+}

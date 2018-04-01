@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Olist Desafio - Tiago</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<div class="background">
+		
+		
+				<form action="/" data-js="form-submit" class="my-form">
+					<div class="form-header">
+						<p class="text-center logotype"><img src="img/logotype.svg" alt="logotipo olist" /></p>
+						<h3 class="text-center">Crie sua conta</h3>
+					</div>
+					<div class="form-body">
+						<div class="form-group">
+							<label for="id-name" class="labels-form">Nome completo</label>
+							<input type="text" id="id-name" class="text-form" required>
+						</div>
+						<div class="form-group">
+							<label for="id-email" class="labels-form">E-mail</label>
+							<input type="email" id="id-email" class="text-form" required>
+						</div>
+						<div class="form-group">
+							<label for="name-full" class="labels-form"'>Senha</label>
+							<input type="password" id="password" class="text-form" data-js='senha' required>
+									<div class="verificator-box">
+										<div class="verificator-1" data-js="ver1">
+										</div>
+										<div class="verificator-2"  data-js="ver2">
+										</div>
+										<div class="verificator-3"  data-js="ver3">
+										</div>
+									</div>
+						</div>
+						<div class="form-group">
+							<p><div class="ballOne" alt="bola verificador" data-js="ball1"></div><span class="verificator">Pelo menos 6 caracteres</span></p>
+							<p><div class="ballTwo"  alt="bola verificador" data-js="ball2"></div><span class="verificator">Pelo menos 1 letra maiúscula</span></p>
+							<p><div class="ballThree"  alt="bola verificador" data-js="ball3"></div><span class="verificator">Pelo menos 1 número</span></p>
+						</div>
+						<div class="form-group">
+							<label for="name-full" class="labels-form">Confirme sua senha</label>
+							<input type="password" id="password" class="text-form" data-js="confirmPassword" required>
+						</div>
+						<div class="form-group">
+							<p class="alertPassword text-center isRed" data-js="alertPassword"></p>
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Criar Conta" class="btn-send" data-js="btn-send">
+						</div>
+				</div>
+			</form>
+		
+	
+	</div>
+
+</body>
+<script src="js/script.js"></script>
+</html>
